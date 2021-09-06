@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    android:layout_gravity="center"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="LOGIN"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:fontFamily="@font/font"
+            />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/email"
+            android:hint="aaaa@bbbb.com"
+            android:inputType="textEmailAddress"
+            android:text=""
+            android:textColor="@color/black"
+            android:textColorHint="@color/bottomText"
+            android:textSize="20sp"
+            app:met_singleLineEllipsis="true"
+            app:met_baseColor="@color/bottomText"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/black"
+            android:fontFamily="@font/font"/>
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/password"
+            android:hint="********"
+            android:inputType="textPassword"
+            android:text=""
+            android:textColor="@color/black"
+            android:textColorHint="@color/bottomText"
+            android:textSize="20sp"
+            app:met_singleLineEllipsis="true"
+            app:met_baseColor="@color/bottomText"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/black"
+            android:fontFamily="@font/font"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forgot Password?"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:layout_gravity="end"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/font"
+        />
+
+        <com.ornach.nobobutton.NoboButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginBottom="20dp"
+            app:nb_text="LOGIN"
+            app:nb_borderColor="@color/white"
+            app:nb_borderWidth="2dp"
+            app:nb_backgroundColor="#03a9f4"
+            app:nb_focusColor="#3f51b5"
+            app:nb_textColor="@color/white"
+            app:nb_radius="5dp"
+            android:id="@+id/btn_sign_in"
+            android:fontFamily="@font/font"
+            android:layout_gravity="center"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:id="@+id/btn_register"
+            android:fontFamily="@font/font"
+            android:text="Don\'t have an account? Sign Up"/>
+
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

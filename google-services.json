@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "398653226811",
+    "firebase_url": "https://loginregistrationapp-9719a.firebaseio.com",
+    "project_id": "loginregistrationapp-9719a",
+    "storage_bucket": "loginregistrationapp-9719a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:398653226811:android:7e69fb9c708734321b411e",
+        "android_client_info": {
+          "package_name": "com.example.loginresistrationapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "398653226811-8lbp6ic6bcp59nju2ohojsbreoe5sq4s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.loginresistrationapp",
+            "certificate_hash": "4052e5ff55ae3b57e26164672ebc1bf019e29388"
+          }
+        },
+        {
+          "client_id": "398653226811-6gi4qeoa8a1r7kruifb4cah85lval000.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8Hn8BeZ1O41QrP-CuGpGVsJmJtd6xLcU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "398653226811-6gi4qeoa8a1r7kruifb4cah85lval000.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
